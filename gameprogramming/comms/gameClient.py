@@ -16,6 +16,7 @@ def my_message(data):
         tank['y'] = data['echo']['y']
         tank['bulletX'] = data['echo']['bulletX']
         tank['bulletY'] = data['echo']['bulletY']
+        tank['bulletExist'] = data['echo']['bulletExist']
 #sio.emit('my response', {'response': 'my response'})
 
 def getTank():
